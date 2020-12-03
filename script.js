@@ -1,6 +1,4 @@
-// Unsplash API
 const count = 10;
-const apiKey = 'kAcGLkA3dLednMcvt1BIw9kudUqNyTIqAsORYTpY5Eg';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 // Site Vars
 const imageContainer = document.getElementById('imageContainer');
